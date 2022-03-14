@@ -9,7 +9,7 @@ import time
 
 #Readying the Quantum Computer for Processing
 
-IBMQ.enable_account("89f61d6c1b19c9d71fd0652f9cec6f8b007434be6a70da5f8a0f98bfece0aed9b26c2de968a0adab84a664f14213dfcf33579a5f385f264f41be4059c54f4d3e") #The API Token for accessing the IBMQ Machine
+IBMQ.enable_account("") #The API Token for accessing the IBMQ Machine
 provider = IBMQ.get_provider(hub = "ibm-q") #Specifies the Quantum Provider
 #backend = provider.get_backend('ibmq_qasm_simulator') #Specifies the Quantum Computer
 backend = Aer.get_backend("qasm_simulator") #Specifies the Quantum Computer
