@@ -1,8 +1,8 @@
 #Modules
 
-from math import sqrt
-import time
-import csv
+from math import sqrt #Imports the sqrt Function from the math Library Module from Python's Library Directory 
+import time #Imports the time Library Module from Python's Library Directory 
+import csv #Imports the csv Library Module from Python's Library Directory 
 
 #Functions
 
