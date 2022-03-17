@@ -1,11 +1,11 @@
 #Modules
 
-from qiskit import IBMQ
-from qiskit import Aer
-from qiskit.aqua import QuantumInstance
-from qiskit.aqua.algorithms import Shor
-import csv
-import time
+from qiskit import IBMQ #Imports the IBMQ Quantum Experience package from the qiskit Library Module from Python's Library Directory 
+from qiskit import Aer #Imports the AER Quantum Experience package from the qiskit Library Module from Python's Library Directory 
+from qiskit.aqua import QuantumInstance #Imports the Quantum Instance package from the qiskit's aqua package from Python's Library Directory 
+from qiskit.aqua.algorithms import Shor #Imports the Shor Function package from the qiskit's aqua package from Python's Library Directory  
+import csv #Imports the csv Library Module from Python's Library Directory 
+import time #Imports the time Library Module from Python's Library Directory 
 
 #Readying the Quantum Computer for Processing
 
